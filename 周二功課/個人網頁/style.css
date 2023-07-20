@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bruno Ace SC", cursive;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+h1 {
+  color: #00ffa3;
+  text-align: right;
+  font-size: 128px;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: unset;
+  display: block;
+  text-decoration: none;
+}
+
+.bg-black {
+  color: #fff;
+  background-color: #000;
+}
+.bg-white {
+  color: #15161d;
+  background-color: #fff;
+}
+
+.bg-darkblue {
+  color: #fff;
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+
+.container {
+  max-width: 1296px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 185px;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 4px;
+  border-radius: 32px;
+}
+
+.navbar {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-item {
+  width: 306px;
+  color: #d1d1d1;
+}
+.navbar-item:nth-child(4) {
+  width: 196px;
+  text-align: right;
+}
+
+.person {
+  color: #fff;
+}
+.person .container {
+  gap: 24px;
+}
+.person > .container > img {
+  padding: 72px 0;
+}
+
+.summary > .btn {
+  margin-left: auto;
+}
+
+.introduction {
+  background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true"), lightgray 50% / cover no-repeat;
+}
+
+.introduction .container {
+  align-items: flex-start;
+  gap: 24px;
+  padding: 160px 0;
+}
+
+.content h2 {
+  margin-bottom: 36px;
+}
+.content p {
+  font-size: 24px;
+}
+
+.introduction .content img:nth-child(2n) {
+  margin: 32px 16px 0 16px;
+}
+
+.gallery {
+  display: flex;
+  gap: 24px;
+}
+
+.about .container {
+  gap: 134px;
+}
+
+.grid {
+  padding: 160px 0;
+}
+.grid ul {
+  width: 636px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+}
+
+.grid li {
+  flex-basis: 306px;
+  padding: 16px;
+  border: 1px solid #e3e3e3;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+.grid li h3 {
+  font-size: 20px;
+}
+.grid li h3:nth-child(2) {
+  margin: 4px 0;
+}
+
+.contact {
+  padding: 96px 0;
+}
+.contact .container {
+  gap: 113px;
+}
+.contact .title {
+  display: flex;
+  gap: 16px;
+}
+
+.link-list {
+  display: flex;
+  gap: 20px;
+}
+.link-list img {
+  width: 162px;
+}
+
+.products {
+  padding: 160px 0;
+}
+
+.products .container {
+  flex-direction: column;
+  gap: 16px;
+}
+.products-warp,
+.products-header,
+.products-footer {
+  display: flex;
+  gap: 24px;
+}
+.products-header {
+  margin-bottom: 28px;
+}
+.products .title {
+  width: 746px;
+  margin-left: auto;
+}
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+  padding: 40px 0;
+}
+footer p {
+  margin: 0 auto;
+}
