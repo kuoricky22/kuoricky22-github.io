@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans TC", "Roboto", sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+a {
+  color: #fbf2f2;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.bg-cream {
+  background-color: #fbf2f2;
+}
+
+.bg-brick {
+  background-color: #aa0601;
+}
+
+.container {
+  max-width: 1296px;
+  margin: auto;
+}
+
+.section-padding {
+  padding: 80px 0px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.material-symbols-outlined.md-36 {
+  font-size: 36px;
+  margin-right: 20px;
+}
+.btn {
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  background-color: #aa0601;
+}
+.btn-lg {
+  font-size: 16px;
+  padding: 16px 176px;
+}
+.btn-sm {
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+.section-title {
+  color: #650300;
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 696px;
+  }
+  .btn-lg {
+    padding: 16px 136px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 343px;
+  }
+  .section-padding {
+    padding: 40px 0px;
+  }
+  .btn-lg {
+    padding: 16px 139px;
+  }
+  .material-symbols-outlined.md-36 {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  .section-title {
+    font-size: 24px;
+  }
+}

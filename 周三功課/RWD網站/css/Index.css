@@ -1,0 +1,358 @@
+nav {
+  padding: 25px 0;
+}
+
+.navbar-logo {
+  width: 80px;
+}
+.navbar-list {
+  gap: 64px;
+}
+.navbar-list-mb {
+  display: none;
+}
+
+.jumbotron {
+  text-align: right;
+  background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true")
+    no-repeat center / cover;
+}
+
+.motoo {
+  padding: 296px 0px;
+  color: #650300;
+}
+
+.motoo h1 {
+  margin-bottom: 4px;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.motoo h2 {
+  font-size: 36px;
+}
+
+.services {
+  margin-top: 24px;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.service-content {
+  flex-basis: 306px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-content .service-icon {
+  width: 100px;
+  margin-bottom: 16px;
+}
+.service-content h4 {
+  color: #650300;
+  font-size: 24px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.classises {
+  gap: 24px;
+}
+.classis-content {
+  margin-top: 48px;
+  width: 416px;
+  text-align: center;
+}
+.classis-sample-img {
+  margin-bottom: 8px;
+}
+
+.product-type-name {
+  color: #aa0601;
+  font-size: 48px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.special-bg-img {
+  background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg-sm.png?raw=true")
+    no-repeat center / cover;
+}
+
+.special-bg-img .section-title {
+  color: #ffffff;
+}
+
+.special-content {
+  margin-top: 48px;
+  text-align: center;
+  background-color: #ffffff;
+}
+.special {
+  display: block;
+  width: 648px;
+  height: 240px;
+}
+.special-content:first-child .sample-img {
+  background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-1.png?raw=true")
+    no-repeat center / cover;
+}
+.special-content:last-child .sample-img {
+  background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-2.png?raw=true")
+    no-repeat center / cover;
+}
+
+.recommand {
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.recommand-card {
+  width: 306px;
+  border: 1px solid #dee2e6;
+  box-shadow: 0px 2px 6px #00000029;
+  border-radius: 4px;
+}
+.recommand-content {
+  padding: 16px;
+}
+.recommand-content p:nth-child(2) {
+  margin-top: 8px;
+  margin-bottom: 72px;
+}
+
+.recommand-content small {
+  color: #707070;
+  font-size: 14px;
+}
+
+.contact-content {
+  max-width: 576px;
+  margin: 0 auto;
+  margin-top: 48px;
+  text-align: center;
+}
+.contact-content form,
+p {
+  text-align: left;
+}
+.contact-content form {
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.form-group {
+  margin-bottom: 16px;
+}
+.form-group label {
+  margin-bottom: 8px;
+}
+.form-group input[type="text"] {
+  padding: 6px 12px;
+  border: 1px solid #000;
+  background-color: transparent;
+}
+.form-group input[type="checkbox"] {
+  margin: 0;
+  margin-right: 4px;
+  background-color: #fbf2f2;
+}
+.form-group textarea {
+  height: 136px;
+  background-color: transparent;
+}
+.col-12 {
+  display: inline-block;
+  width: 100%;
+}
+.col-2 {
+  display: inline-block;
+  width: 16px;
+}
+.col-10 {
+  display: inline-block;
+  width: calc(100%-20px);
+}
+
+footer {
+  color: #ffffff;
+}
+.about {
+  margin-bottom: 36px;
+  padding-top: 60px;
+}
+.about-list {
+  gap: 48px;
+}
+.about-social {
+  gap: 32px;
+}
+.about-social li img {
+  width: 48px;
+}
+
+.information {
+  padding-bottom: 32px;
+  border-bottom: 1px solid #ffffff;
+}
+.information li {
+  font-size: 36px;
+}
+
+.footer-content {
+  padding: 32px 0;
+}
+.policy-content p:first-child {
+  margin-right: 48px;
+}
+.about-social-mb {
+  display: none;
+}
+
+@media (max-width: 1295px) {
+  .jumbotron {
+    background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true")
+      no-repeat center / cover;
+  }
+  .classises {
+    flex-direction: column;
+  }
+  .classis-content {
+    width: 336px;
+  }
+  .specials {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1295px) {
+  .service-content {
+    flex-basis: 336px;
+  }
+  .special {
+    display: block;
+    width: 696px;
+  }
+  .about {
+    margin-bottom: 32px;
+    padding-top: 56px;
+  }
+  .about-social li img {
+    width: 40px;
+  }
+  .footer-content {
+    padding: 32px 0 40px 0;
+  }
+}
+@media (min-width: 375px) and (max-width: 767px) {
+  nav {
+    flex-wrap: wrap;
+  }
+  .navbar-logo {
+    display: block;
+  }
+  .navbar-list {
+    display: none;
+  }
+  .navbar-list-mb {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navbar-item {
+    width: 50%;
+    text-align: center;
+    border: 1px solid #ffffff;
+  }
+  .navbar-item a {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+  }
+  .navbar-item a:hover {
+    color: #000;
+    background-color: #ffffff;
+  }
+
+  .motoo {
+    padding: 144px 0px;
+  }
+  .motoo h1 {
+    margin-bottom: 8px;
+    font-size: 24px;
+  }
+  .motoo h2 {
+    font-size: 16px;
+  }
+
+  .service-content {
+    flex-basis: 336px;
+  }
+
+  .special {
+    display: block;
+    width: 348px;
+  }
+  .special-content:first-child .sample-img {
+    background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-1-sm.png?raw=true")
+      no-repeat center / cover;
+  }
+  .special-content:last-child .sample-img {
+    background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-2-sm.png?raw=true")
+      no-repeat center / cover;
+  }
+  .recommand-card {
+    flex-basis: 348px;
+  }
+
+  .contact-content {
+    max-width: 348px;
+    margin-top: 24px;
+  }
+  .contact-content form {
+    margin-bottom: 24px;
+  }
+  .form-group:last-child {
+    align-items: flex-start;
+  }
+  .form-group input[type="checkbox"] {
+    margin-top: 6px;
+  }
+  .about {
+    display: none;
+  }
+
+  .information {
+    display: flex;
+    padding: 24px 0;
+  }
+  .infor-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .infor-list li {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .infor-list li:last-child {
+    margin-bottom: 0;
+  }
+  .about-social-mb {
+    display: flex;
+    gap: 8px;
+  }
+  .about-social-mb li {
+    width: 24px;
+  }
+  .footer-content {
+    gap: 8px;
+    padding: 16px 0 24px 0;
+    flex-direction: column;
+  }
+  .policy-content {
+    gap: 8px;
+    flex-direction: column;
+  }
+}
