@@ -1,0 +1,55 @@
+.btn-lg {
+  font-size: 16px;
+  padding: 16px 176px;
+}
+.btn-sm {
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+// 按鈕
+.btn {
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  background-color: #aa0601;
+}
+.btn-lg {
+  font-size: 16px;
+  padding: 16px 176px;
+}
+.btn-sm {
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+// 首頁【段落】
+.section-padding {
+  padding: 80px 0px;
+}
+
+.section-title {
+  color: #650300;
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+@include pad {
+  .btn-lg {
+    padding: 16px 136px;
+  }
+}
+@include mobile {
+  .btn-lg {
+    padding: 16px 139px;
+  }
+
+  .section-padding {
+    padding: 40px 0px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+}

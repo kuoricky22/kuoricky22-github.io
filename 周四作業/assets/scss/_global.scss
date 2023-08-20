@@ -1,0 +1,30 @@
+.container {
+  max-width: 1296px;
+  margin: auto;
+}
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+@include pad {
+  .container {
+    max-width: 696px;
+  }
+}
+@include mobile {
+  .container {
+    max-width: 343px;
+  }
+}
